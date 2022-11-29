@@ -2,30 +2,35 @@ main {
   padding: 0px;
   margin: 0px;
 }
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  linkcolor: #598392;
+  font-size: 30px;
+  justify-items:auto;
+  vertical-align: middle;
+  background-color: #EFF6E0;
+  border-radius: 46% 25% 46% 25%;
+}
 
 .logo{
   color: black;
   font-weight: bold;
   font-size: 30px;
 }
-a:link{
+nav a:link{
   text-decoration: none;
-  color: white;
+  color: #598392;
   vertical-align: middle;
 }
-a:visited{
+nav a:visited{
   text-decoration: none;
-  color: white;
+  color: #598392;
   vertical-align: middle;
 }
 
-nav ul li{
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 30px;
-  vertical-align: middle;
-}
+
 /*nav {
   background-color: rgb(18, 69, 89);
   color: white;
