@@ -3,89 +3,52 @@ main {
   margin: 0px;
 }
 
-/*#barra {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  float: right;
-  gap: 20px;
-  position: absolute;
-  width: 15%;
-  height: 47px;
-  left: 681px;
-  top: 28px;
-  right: 20px;
-  padding: 10px;
-  font-family: "Palanquin";
-  font-style: normal;
-  font-weight: 700;
+.logo{
+  color: black;
+  font-weight: bold;
   font-size: 30px;
-  line-height: 100%;
-  text-align: right;
-  color: #eff6e0;
-} */
-header {
+}
+a:link{
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+a:visited{
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+/*nav {
   background-color: rgb(18, 69, 89);
   color: white;
   box-sizing: border-box;
   position: relative;
-  width: 100%;
-  height: 110px;
-  left: 0px;
-  top: 0px;
-
+  width: 100vh;
+  height: 100%;
   background: #598392;
   border: 1px solid #598392;
+  display: flex;
+  align-items: left;
 }
-#bsomos {
-  position: absolute;
-  width: 254px;
-  height: 47px;
-  left: 35%;
-  top: 28px;
-
-  font-family: "Palanquin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 54px;
-  text-align: center;
-  color: #eff6e0;
-}
-#bequipo {
-  position: absolute;
-  width: 254px;
-  height: 47px;
-  left: 50%;
-  top: 28px;
-
-  font-family: "Palanquin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 54px;
-  text-align: center;
-
-  color: #eff6e0;
-
-
-}
-#bcontacto {
-  position: absolute;
-  width: 254px;
-  height: 47px;
-  left: 70%;
-  top: 28px;
-  font-family: "Palanquin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 54px;
-  text-align: center;
-  color: #eff6e0;
-
-
-}
+*/
 .miembros {border-radius: 50%;
   }
-.BBTequipo {background-color: #598392;}
+
+.BBTequipo {background-color: #598392;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #598392;
+  color: white;
+  padding: 20px;
+
+}
