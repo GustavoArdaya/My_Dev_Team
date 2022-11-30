@@ -30,6 +30,26 @@ nav ul li {
   background-color: #eff6e0;
   border-radius: 46% 25% 46% 25%;
 }
+.inicio {
+  display:flex;
+  gap: 20px;
+  }
+
+.imagen_inicio {
+  background-color: red;
+  /* height: 60%;
+  width: 50%; */
+  }
+
+#imagen1 img{
+  align-self: center;
+  object-fit: cover;
+}
+
+.texto_inicio {
+  width: 50%;
+
+}
 
 .logo {
   color: black;
