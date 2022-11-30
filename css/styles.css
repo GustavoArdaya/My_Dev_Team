@@ -33,8 +33,6 @@ nav ul li {
 .inicio {
   display:flex;
   gap: 20px;
-  
-    align-items: center;
   }
 
 .imagen_inicio {
@@ -48,10 +46,14 @@ nav ul li {
   object-fit: cover;
 }
 
+.texto_inicio p{
+  vertical-align: middle;
+} 
+
 .texto_inicio {
   width: 50%;
-  
-
+  text-align: center;
+ 
 }
 
 .logo {
