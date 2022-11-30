@@ -19,7 +19,7 @@ nav ul li:hover {
   cursor: pointer;
   background-color: #859ba3;
   transition: 400ms;
-  }
+}
 nav ul li {
   list-style-type: none;
   padding: 10px 20px;
@@ -50,11 +50,11 @@ nav a:visited {
 .empleados {
   text-align: center;
 }
-.linkedin{
+.linkedin {
   width: 50px;
   height: 50px;
 }
-.linkedin img{
+.linkedin img {
   height: 50px;
   width: 50px;
 }
@@ -62,16 +62,14 @@ nav a:visited {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  
-  overflow: hidden;
 
+  overflow: hidden;
 }
 .miembros img {
   object-fit: cover;
   object-position: center;
   width: 100%;
   height: 100%;
-  
 }
 
 .BBTequipo {
@@ -84,11 +82,10 @@ nav a:visited {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 40px;
-
 }
-#BBT{
-  background: #CFE7fA;
-  background: linear-gradient(to right, #CFE7fA 0%, #6393C1 100%);
+#BBT {
+  background: #cfe7fa;
+  background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
