@@ -33,17 +33,15 @@ nav ul li {
 .inicio {
   display:flex;
   gap: 20px;
+  margin: auto;
   }
 
 .imagen_inicio {
   background-color: red;
-  /* height: 60%;
-  width: 50%; */
   }
 
-#imagen1 img{
-  align-self: center;
-  object-fit: cover;
+.imagen1 img{
+  margin: auto;
 }
 
 .texto_inicio p{
@@ -52,10 +50,9 @@ nav ul li {
 
 .texto_inicio {
   width: 50%;
+  margin: auto;
   text-align: center;
- 
 }
-
 .logo {
   color: black;
   font-weight: bold;
