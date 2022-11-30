@@ -47,20 +47,9 @@ nav a:visited {
   color: #598392;
   vertical-align: middle;
 }
-
-/*nav {
-  background-color: rgb(18, 69, 89);
-  color: white;
-  box-sizing: border-box;
-  position: relative;
-  width: 100vh;
-  height: 100%;
-  background: #598392;
-  border: 1px solid #598392;
-  display: flex;
-  align-items: left;
+.empleados {
+  text-align: center;
 }
-*/
 .miembros {
   border-radius: 50%;
 }
