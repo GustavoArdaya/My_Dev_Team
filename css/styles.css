@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: content-box;
+  scroll-behavior: smooth;
 }
 nav {
   display: flex;
@@ -25,6 +26,7 @@ nav ul li {
   padding: 10px 20px;
   color: #598392;
   font-size: 30px;
+  font-weight: bold;
   justify-items: auto;
   vertical-align: middle;
   background-color: #eff6e0;
@@ -34,15 +36,16 @@ nav ul li {
   display:flex;
   gap: 20px;
   align-items: center;
+  background-color: #eff6e0;
   }
 
 .imagen_inicio {
-  background-color: #EFF6E0;
+  background-color: #AEC3B0;
   height: 400px;
   width: 400px;
   box-sizing: border-box;
   border-radius: 50% 0 50% 50%;
-   
+  margin: 50px;
   }
 
 .imagen_inicio img{
@@ -121,6 +124,8 @@ nav a:visited {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 40px;
+  color: #eff6e0;
+  text-shadow: 0px 5px 7px black;
 }
 #BBT {
   background: #cfe7fa;
