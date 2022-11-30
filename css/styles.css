@@ -33,17 +33,31 @@ nav ul li {
 .inicio {
   display:flex;
   gap: 20px;
+  align-items: center;
   }
 
 .imagen_inicio {
-  background-color: red;
-  /* height: 60%;
-  width: 50%; */
+  background-color: #EFF6E0;
+  height: 400px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 50% 0 50% 50%;
+   
   }
 
-#imagen1 img{
+.imagen_inicio img{
+  /* align-self: center;
+  object-fit: cover; */
+  /* height: 400px;
+  width: 400px; */
+  padding: 100px;
+}
+
+#imagen1 {
   align-self: center;
-  object-fit: cover;
+  /* object-fit: cover; */
+  height: 200px;
+  width: 200px;
 }
 
 .texto_inicio p{
