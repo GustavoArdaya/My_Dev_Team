@@ -1,48 +1,51 @@
-main {
+* {
   padding: 0px;
   margin: 0px;
 }
-nav{
+nav {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   background-color: #598392;
   color: white;
   padding: 20px;
-
 }
 nav ul {
   display: flex;
   gap: 10px;
 }
-nav ul li{
-
+nav ul li:hover {
+  cursor: pointer;
+  background-color: #859ba3;
+  transition: 400ms;
+  }
+nav ul li {
   list-style-type: none;
   padding: 10px 20px;
-  linkcolor: #598392;
+  color: #598392;
   font-size: 30px;
-  justify-items:auto;
+  justify-items: auto;
   vertical-align: middle;
-  background-color: #EFF6E0;
+  background-color: #eff6e0;
   border-radius: 46% 25% 46% 25%;
 }
 
-.logo{
+.logo {
   color: black;
   font-weight: bold;
   font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-nav a:link{
+nav a:link {
   text-decoration: none;
   color: #598392;
   vertical-align: middle;
 }
-nav a:visited{
+nav a:visited {
   text-decoration: none;
   color: #598392;
   vertical-align: middle;
 }
-
 
 /*nav {
   background-color: rgb(18, 69, 89);
@@ -57,8 +60,16 @@ nav a:visited{
   align-items: left;
 }
 */
-.miembros {border-radius: 50%;
-  }
-
-.BBTequipo {background-color: #598392;
+.miembros {
+  border-radius: 50%;
 }
+
+.BBTequipo {
+  background-color: #598392;
+}
+#BBT{
+  background: #CFE7fA;
+  background: linear-gradient(to right, #CFE7fA 0%, #6393C1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
