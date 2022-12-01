@@ -3,6 +3,7 @@
   margin: 0px;
   box-sizing: content-box;
   scroll-behavior: smooth;
+  
 }
 nav {
   display: flex;
@@ -69,14 +70,19 @@ nav ul li {
 
 .texto_inicio {
   width: 50%;
-  text-align: center;
+  text-align: justify;
+    color: #124559;
+  padding-right: 50px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .logo {
   color: black;
   font-weight: bold;
   font-size: 30px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Titan One';
 }
 nav a:link {
   text-decoration: none;
@@ -129,7 +135,8 @@ nav a:visited {
 }
 #BBT {
   background: #cfe7fa;
-  background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
+  background: linear-gradient(to right, #eff6e0 0%, #AEC3B0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px rgb(96, 96, 121);
 }
