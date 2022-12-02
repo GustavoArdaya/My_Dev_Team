@@ -1,11 +1,18 @@
-# ProyectoGit
-Descripcion
+# Blue Banana Team
+Objetivo:
 
-Autores
+Cubrir la necesidad de presencia en redes de una nueva empresa de desarrollo web. 
 
-Tecnología
+Se diseña y crea página web de presentación de la empresa BBT, sus servicios y sus empleados.
 
-Enlaces de trabajo:
+Desarrolladores:
+  - Gustavo Ardaya
+  - Alejandro Caballero
+  - Pere Josep Juan
+
+Tecnología: desarrollado en HTML y CSS
+
+Enlaces de trabajo >>
 
 Figma: https://www.figma.com/file/i0pjbPg6yxudrYfQu8LkzS/Untitled?node-id=0%3A1&t=30RW6oyEIjeB1BNZ-0
 
