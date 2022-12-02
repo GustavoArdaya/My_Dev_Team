@@ -1,4 +1,9 @@
 # ProyectoGit
+Descripcion
+
+Autores
+
+Tecnología
 
 Enlaces de trabajo:
 
