@@ -18,7 +18,7 @@ Figma: https://www.figma.com/file/i0pjbPg6yxudrYfQu8LkzS/Untitled?node-id=0%3A1&
 
 Trello: https://trello.com/b/87Ae2qNQ/proyecto-git
 
-URL página: https://gustavoardaya.github.io/ProyectoGit/
+URL página: https://gustavoardaya.github.io/My_Dev_Team/
 
 Metodología >>
   - Brainstorming, plasmando las ideas en Trello:<br>
